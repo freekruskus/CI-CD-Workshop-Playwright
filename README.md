@@ -48,14 +48,17 @@ Install your node modules first!
 Install playwright second!
 npx playwright install --with-deps
 
+Run all playwright tests
+npx playwright test
+
 Running a single test file
-npx playwright test landing-page.spec.ts
+npx playwright test example.spec.ts
 
 Running tests in headed mode
-npx playwright test landing-page.spec.ts --headed
+npx playwright test example.spec.ts --headed
 
 Running Tests on specific browsers
-npx playwright test landing-page.ts --project=chromium
+npx playwright test login.spec.ts --project=chromium
 
 Run the test with the title
 npx playwright test -g "add a todo item"
