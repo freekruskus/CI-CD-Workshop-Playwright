@@ -1,0 +1,21 @@
+{
+  "name": "Playwright-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelAmin47/Playwright-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelAmin47/Playwright-playground/issues"
+  },
+  "homepage": "https://github.com/MichelAmin47/Playwright-playground#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2"
+  }
+}
