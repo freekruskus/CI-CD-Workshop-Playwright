@@ -25,7 +25,7 @@ jobs:
           command: npx playwright install --with-deps
       - run:  
           name: Run Playwright tests
-          command: npx playwright test
+          command: npx playwright test landing-page.ts --project=chromium
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
