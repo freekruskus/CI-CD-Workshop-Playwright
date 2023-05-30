@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron:  '50 * * * *'
+    - cron:  '55 * * * *'
 
 
 jobs:
@@ -25,6 +25,9 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v2
